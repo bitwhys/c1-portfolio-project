@@ -1,0 +1,104 @@
+@import '../../colors.css';
+/* colors */
+$black: #131417;
+$white: #fff;
+
+//$bgColor: #f5f5f5;
+$grey: #9fa0a3;
+
+$background: var(--sage-2);
+$foreground: var(--sage-12);
+$background-invert: hsl(155, 7%, 9.2%);
+$foreground-invert: hsl(155, 7%, 93%);
+
+// neutral
+$neutral-1: var(--sage-1);
+$neutral-2: var(--sage-2);
+$neutral-3: var(--sage-3);
+$neutral-4: var(--sage-4);
+$neutral-5: var(--sage-5);
+$neutral-6: var(--sage-6);
+$neutral-7: var(--sage-7);
+$neutral-8: var(--sage-8);
+$neutral-9: var(--sage-9);
+$neutral-10: var(--sage-10);
+$neutral-11: var(--sage-11);
+$neutral-12: var(--sage-12);
+$neutral-surface-1: var(--sage-a1);
+$neutral-surface-2: var(--sage-a2);
+$neutral-surface-3: var(--sage-a3);
+$neutral-surface-4: var(--sage-a4);
+$neutral-surface-5: var(--sage-a5);
+$neutral-surface-6: var(--sage-a6);
+$neutral-surface-7: var(--sage-a7);
+$neutral-surface-8: var(--sage-a8);
+$neutral-surface-9: var(--sage-a9);
+$neutral-surface-10: var(--sage-a10);
+$neutral-surface-11: var(--sage-a11);
+$neutral-surface-12: var(--sage-a12);
+
+//brand
+$brand-1: var(--lime-1);
+$brand-2: var(--lime-2);
+$brand-3: var(--lime-3);
+$brand-4: var(--lime-4);
+$brand-5: var(--lime-5);
+$brand-6: var(--lime-6);
+$brand-7: var(--lime-7);
+$brand-8: var(--lime-8);
+$brand-9: var(--lime-9);
+$brand-10: var(--lime-10);
+$brand-11: var(--lime-11);
+$brand-12: var(--lime-12);
+$brand-surface-1: var(--lime-a1);
+$brand-surface-2: var(--lime-a2);
+$brand-surface-3: var(--lime-a3);
+$brand-surface-4: var(--lime-a4);
+$brand-surface-5: var(--lime-a5);
+$brand-surface-6: var(--lime-a6);
+$brand-surface-7: var(--lime-a7);
+$brand-surface-8: var(--lime-a8);
+$brand-surface-9: var(--lime-a9);
+$brand-surface-10: var(--lime-a10);
+$brand-surface-11: var(--lime-a11);
+$brand-surface-12: var(--lime-a12);
+
+// overlay
+$overlay-1: var(--white-a1);
+$overlay-2: var(--white-a2);
+$overlay-3: var(--white-a3);
+$overlay-4: var(--white-a4);
+$overlay-5: var(--white-a5);
+$overlay-6: var(--white-a6);
+$overlay-7: var(--white-a7);
+$overlay-8: var(--white-a8);
+$overlay-9: var(--white-a9);
+$overlay-10: var(--white-a10);
+$overlay-11: var(--white-a11);
+$overlay-11: var(--white-a12);
+
+$muted: var(--sage-4);
+$muted-foreground: var(--sage-11);
+
+$popover: var(--sage-1);
+$popover-foreground: var(--sage-12);
+
+$border: var(--sage-7);
+$input: var(--sage-7);
+
+$card: var(--sage-1);
+$card-foreground: var(--sage-12);
+
+$primary: var(--sage-12);
+$primary-foreground: var(--sage-1);
+
+$secondary: var(--sage-4);
+$secondary-foreground: var(--sage-12);
+
+$accent: var(--sage-4);
+$accent-foreground: var(--sage-12);
+
+/*--destructive: var(--destructive-9);*/
+/*--destructive-foreground: var(--destructive-12);*/
+
+$ring: var(--sage-8);

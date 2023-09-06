@@ -1,0 +1,126 @@
+@import '@fontsource/ibm-plex-sans/400.css';
+@import 'colors.css';
+
+:root {
+  --background: var(--sage-2);
+  --foreground: var(--sage-12);
+  --foreground-muted: var(--sage-11);
+  --background-inverted: hsl(155, 7%, 9.2%);
+  --foreground-inverted: hsl(155, 7%, 93%);
+
+  /*  Neutral */
+  --neutral-1: var(--sage-1);
+  --neutral-2: var(--sage-2);
+  --neutral-3: var(--sage-3);
+  --neutral-4: var(--sage-4);
+  --neutral-5: var(--sage-5);
+  --neutral-6: var(--sage-6);
+  --neutral-7: var(--sage-7);
+  --neutral-8: var(--sage-8);
+  --neutral-9: var(--sage-9);
+  --neutral-10: var(--sage-10);
+  --neutral-11: var(--sage-11);
+  --neutral-12: var(--sage-12);
+  --neutral-a1: var(--sage-a1);
+  --neutral-a2: var(--sage-a2);
+  --neutral-a3: var(--sage-a3);
+  --neutral-a4: var(--sage-a4);
+  --neutral-a5: var(--sage-a5);
+  --neutral-a6: var(--sage-a6);
+  --neutral-a7: var(--sage-a7);
+  --neutral-a8: var(--sage-a8);
+  --neutral-a9: var(--sage-a9);
+  --neutral-a10: var(--sage-a10);
+  --neutral-a11: var(--sage-a11);
+  --neutral-a12: var(--sage-a12);
+
+  /*  brand */
+  --brand-1: var(--lime-1);
+  --brand-2: var(--lime-2);
+  --brand-3: var(--lime-3);
+  --brand-4: var(--lime-4);
+  --brand-5: var(--lime-5);
+  --brand-6: var(--lime-6);
+  --brand-7: var(--lime-7);
+  --brand-8: var(--lime-8);
+  --brand-9: var(--lime-9);
+  --brand-10: var(--lime-10);
+  --brand-11: var(--lime-11);
+  --brand-12: var(--lime-12);
+  --brand-a1: var(--lime-a1);
+  --brand-a2: var(--lime-a2);
+  --brand-a3: var(--lime-a3);
+  --brand-a4: var(--lime-a4);
+  --brand-a5: var(--lime-a5);
+  --brand-a6: var(--lime-a6);
+  --brand-a7: var(--lime-a7);
+  --brand-a8: var(--lime-a8);
+  --brand-a9: var(--lime-a9);
+  --brand-a10: var(--lime-a10);
+  --brand-a11: var(--lime-a11);
+  --brand-a12: var(--lime-a12);
+
+  /*  accent */
+  --accent-1: var(--sky-1);
+  --accent-2: var(--sky-2);
+  --accent-3: var(--sky-3);
+  --accent-4: var(--sky-4);
+  --accent-5: var(--sky-5);
+  --accent-6: var(--sky-6);
+  --accent-7: var(--sky-7);
+  --accent-8: var(--sky-8);
+  --accent-9: var(--sky-9);
+  --accent-10: var(--sky-10);
+  --accent-11: var(--sky-11);
+  --accent-12: var(--sky-12);
+  --accent-a1: var(--sky-a1);
+  --accent-a2: var(--sky-a2);
+  --accent-a3: var(--sky-a3);
+  --accent-a4: var(--sky-a4);
+  --accent-a5: var(--sky-a5);
+  --accent-a6: var(--sky-a6);
+  --accent-a7: var(--sky-a7);
+  --accent-a8: var(--sky-a8);
+  --accent-a9: var(--sky-a9);
+  --accent-a10: var(--sky-a10);
+  --accent-a11: var(--sky-a11);
+  --accent-a12: var(--sky-a12);
+
+  /* Overlay */
+  --overlay-1: var(--white-a1);
+  --overlay-2: var(--white-a2);
+  --overlay-3: var(--white-a3);
+  --overlay-4: var(--white-a4);
+  --overlay-5: var(--white-a5);
+  --overlay-6: var(--white-a6);
+  --overlay-7: var(--white-a7);
+  --overlay-8: var(--white-a8);
+  --overlay-9: var(--white-a9);
+  --overlay-10: var(--white-a10);
+  --overlay-11: var(--white-a11);
+  --overlay-12: var(--white-a12);
+}
+
+.dark,
+.dark-theme,
+.dark-mode {
+  /* Overlay */
+  --overlay-1: var(--black-a1);
+  --overlay-2: var(--black-a2);
+  --overlay-3: var(--black-a3);
+  --overlay-4: var(--black-a4);
+  --overlay-5: var(--black-a5);
+  --overlay-6: var(--black-a6);
+  --overlay-7: var(--black-a7);
+  --overlay-8: var(--black-a8);
+  --overlay-9: var(--black-a9);
+  --overlay-10: var(--black-a10);
+  --overlay-11: var(--black-a11);
+  --overlay-12: var(--black-a12);
+}
+
+/* Radius */
+:root {
+  --radius: 1;
+  --scaling: 1;
+}

@@ -1,3 +1,3 @@
-import "@/styles/sass/main.scss"
+import '@/styles/main.css'
 
 console.log('Hello console!!!')

@@ -1,6 +1,19 @@
-@import 'atoms/functions';
-@import 'atoms/mixins';
-@import 'atoms/variables';
+//@import 'atoms/functions';
+//@import 'atoms/mixins';
+//@import 'atoms/tokens';
+//@import 'atoms/variables';
 
-@import 'base/base';
-@import 'base/typography';
+// base
+//@import 'base/base';
+//@import 'base/typography';
+
+// layout
+//@import 'layouts/container';
+//@import 'layouts/nav';
+//@import 'layouts/footer';
+
+// sections
+//@import 'sections/articles';
+
+// pages
+//@import 'pages/about-page';
