@@ -1,0 +1,83 @@
+// Define font-families
+@font-face {
+  font-family:
+    Visby CF,
+    sans-serif;
+  src:
+    url(../../../assets/fonts/visby/VisbyCF-Thin.woff) format('woff'),
+    url(../../../assets/fonts/visby/VisbyCF-Thin.woff2) format('woff2');
+  font-weight: 200;
+}
+@font-face {
+  font-family:
+    Visby CF,
+    sans-serif;
+  src:
+    url(../../../assets/fonts/visby/VisbyCF-Light.woff) format('woff'),
+    url(../../../assets/fonts/visby/VisbyCF-Light.woff2) format('woff2');
+  font-weight: 300;
+}
+@font-face {
+  font-family:
+    Visby CF,
+    sans-serif;
+  src:
+    url(../../../assets/fonts/visby/VisbyCF-Regular.woff) format('woff'),
+    url(../../../assets/fonts/visby/VisbyCF-Regular.woff2) format('woff2');
+  font-weight: 400;
+}
+@font-face {
+  font-family:
+    Visby CF,
+    sans-serif;
+  src:
+    url(../../../assets/fonts/visby/VisbyCF-Medium.woff) format('woff'),
+    url(../../../assets/fonts/visby/VisbyCF-Medium.woff2) format('woff2');
+  font-weight: 500;
+}
+@font-face {
+  font-family:
+    Visby CF,
+    sans-serif;
+  src:
+    url(../../../assets/fonts/visby/VisbyCF-DemiBold.woff) format('woff'),
+    url(../../../assets/fonts/visby/VisbyCF-DemiBold.woff2) format('woff2');
+  font-weight: 600;
+}
+@font-face {
+  font-family:
+    Visby CF,
+    sans-serif;
+  src:
+    url(../../../assets/fonts/visby/VisbyCF-Bold.woff) format('woff'),
+    url(../../../assets/fonts/visby/VisbyCF-Bold.woff2) format('woff2');
+  font-weight: 700;
+}
+@font-face {
+  font-family:
+    Visby CF,
+    sans-serif;
+  src:
+    url(../../../assets/fonts/visby/VisbyCF-ExtraBold.woff) format('woff'),
+    url(../../../assets/fonts/visby/VisbyCF-ExtraBold.woff2) format('woff2');
+  font-weight: 800;
+}
+@font-face {
+  font-family:
+    Visby CF,
+    sans-serif;
+  src:
+    url(../../../assets/fonts/visby/VisbyCF-Heavy.woff) format('woff'),
+    url(../../../assets/fonts/visby/VisbyCF-Heavy.woff2) format('woff2');
+  font-weight: 900;
+}
+
+// Base typography styles
+body {
+  font-family: 'Visby CF', sans-serif;
+  font-weight: 400;
+  /*font-size: 16px;*/
+  line-height: 1.7;
+  //color: $color-grey-dark;
+  //padding: 3rem;
+}
