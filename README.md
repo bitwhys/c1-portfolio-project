@@ -29,4 +29,4 @@ _*(It's not inspiration actually, I'm just gonna implement it as is 🙈🤣)_
 
 I'm not a designer, so I purchased some figma design files for a really nice portfolio. Figured this was a good chance to practice converting design files into actual code.
 ### Usage
-You can view the site at this particular stage at this [url]()
+You can view the site at this particular stage at this [url](https://deploy-preview-2--gbockari.netlify.app)
