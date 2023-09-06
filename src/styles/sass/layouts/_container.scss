@@ -1,0 +1,9 @@
+.container {
+  padding-left: 5.2vw;
+  padding-right: 5.2vw;
+
+  @include devices(mobile) {
+    padding-left: 2.6vw;
+    padding-right: 2.6vw;
+  }
+}

@@ -10,7 +10,327 @@
     <title>George Bockari | About</title>
   </head>
   <body>
-    <h1>About me</h1>
+    <div class="overlay"></div>
+    <!-- TODO: Nav -->
+    <nav
+      class="container px-[2.6vw] md:px-[5.2vw] fixed top-[2.6vw] left-0 w-full flex justify-between items-center z-10"
+    >
+      <div id="logo">
+        <p class="text-xl font-medium">George Bockari</p>
+        <p class="lg:mt-[0.26vw] text-neutral-10">Atlanta, Georgia</p>
+      </div>
+      <div class="h-[3.12vw] py-0 px-[0.26vw] bg-overlay-3 rounded-full">
+        <ul id="frame" class="h-full flex items-center">
+          <li class="w-[5.5vw] h-[2.6vw] flex justify-center items-center cursor-pointer">
+            <a href="index.html" class="text-lg whitespace-nowrap">Home</a>
+          </li>
+          <li class="w-[5.5vw] h-[2.6vw] flex justify-center items-center cursor-pointer">
+            <a href="case.html" class="text-lg whitespace-nowrap">Case Studies</a>
+          </li>
+          <li class="w-[5.5vw] h-[2.6vw] lg:w-[6vw] lg:h-[2.9vw] flex justify-center items-center cursor-pointer">
+            <a
+              href="about.html"
+              class="text-lg whitespace-nowrap bg-background-inverted text-foreground-inverted px-4 py-0.5 rounded-full"
+              data-active-link="true"
+              >About</a
+            >
+          </li>
+          <li class="w-[5.5vw] h-[2.6vw] flex justify-center items-center cursor-pointer">
+            <a href="#a" class="text-lg whitespace-nowrap">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <div id="nav_socials">
+        <p class="text-base text-muted">Social</p>
+        <ul id="frame" class="flex gap-[1.3vw]">
+          <li class="hidden lg:block lg:mt-[0.26vw]">
+            <a href="#a" class="m-flip js-flip">
+              <span class="m-flip_item">GH</span>
+              <span class="m-flip_item">GH</span>
+            </a>
+          </li>
+          <li class="hidden lg:block lg:mt-[0.26vw]">
+            <a href="#a" class="m-flip js-flip">
+              <span class="m-flip_item">TW</span>
+              <span class="m-flip_item">TW</span>
+            </a>
+          </li>
+          <li class="hidden lg:block lg:mt-[0.26vw]">
+            <a href="#a" class="m-flip js-flip">
+              <span class="m-flip_item">IG</span>
+              <span class="m-flip_item">IG</span>
+            </a>
+          </li>
+          <li class="hidden lg:block lg:mt-[0.26vw]">
+            <a href="#a" class="m-flip js-flip">
+              <span class="m-flip_item">DRIB</span>
+              <span class="m-flip_item">DRIB</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="hidden md:block">
+        <div
+          id="button"
+          class="bg-background-inverted text-foreground-inverted w-fit rounded-full py-[0.7vw] px-[1.2vw]"
+        >
+          <a href="#a" class="m-flip js-flip">
+            <span class="m-flip_item">Menu</span>
+            <span class="m-flip_item">Menu</span>
+          </a>
+        </div>
+      </div>
+    </nav>
+    <!-- TODO: Hero -->
+    <section class="container about_header">
+      <h1 class="text__h3">
+        Hi, I’m George Bockari. I am a developer based in Atlanta, GA focused on creating interactive digital
+        experiences on the web, working with creatives and business alike. I Have been helping clients bring their ideas
+        to life since 2014.
+      </h1>
+    </section>
+    <!-- TODO: two cloumns Block 1 -->
+    <section class="container about_wrapper">
+      <div class="content" id="about">
+        <div class="left">
+          <div>
+            <span>Some of the services:</span>
+            <ul>
+              <li>
+                <p>Ecommerce</p>
+              </li>
+              <li>
+                <p>Landing Page</p>
+              </li>
+              <li>
+                <p>Digital Marketing</p>
+              </li>
+              <li>
+                <p>SEO Optimization</p>
+              </li>
+              <li>
+                <p>Product Design</p>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <span>Hard Skills</span>
+            <ul>
+              <li>
+                <p>Figma</p>
+              </li>
+              <li>
+                <p>Modern Frameworks</p>
+              </li>
+              <li>
+                <p>Webflow/Framer</p>
+              </li>
+              <li>
+                <p>Shopify</p>
+              </li>
+              <li>
+                <p>Copy Writing</p>
+              </li>
+              <li>
+                <p>Design</p>
+              </li>
+              <li>
+                <p>SEO</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="right">
+          <p>Passion for Design: From <span>Startups</span> to <span>Corporations</span>, My Journey So Far.</p>
+          <p>
+            I hold a Bachelor's degree in Graphic Design and have been working in the design industry for over a decade.
+            During this time, I have honed my skills in design principles, user experience, and front-end development.
+            I'm proficient in design tools such as Adobe Creative Suite, Sketch, Adobe Xd and Figma, and have a deep
+            understanding of front-end development languages like HTML, CSS, JavaScript & different types of frameworks.
+          </p>
+          <p>
+            My passion for development & design started when I was young, and I have pursued this passion by working
+            with a variety of clients and projects over the years. I have worked with startups, small businesses, and
+            large corporations, creating user interfaces & front-end development for websites, software applications,
+            and mobile apps.
+          </p>
+          <p>
+            As a Senior Developer & UI Designer, my focus is on creating engaging and intuitive user interfaces that
+            provide an exceptional user experience. I believe that design should be user-centric, and my approach to
+            design reflects this belief. I work closely with my clients to understand their users' needs, conduct user
+            research, and create wireframes and prototypes to ensure that the final design meets both user and business
+            goals and also focus on developing.
+          </p>
+          <p>
+            In my spare time, I enjoy exploring new design trends and technologies, attending design conferences and
+            workshops, and sharing my knowledge with the design community. And also trying to learn more frameworks and
+            libraries of javascripts like react.js, next.js, three.js or GSAP etc. I'm always excited to collaborate on
+            new projects and would love to hear from you. Please feel free to get in touch if you have any questions or
+            if you'd like to work together.
+          </p>
+          <img src="../public/images/component-8.jpg" alt="" srcset="" />
+        </div>
+      </div>
+      <div class="content" id="education">
+        <div class="left">
+          <div>
+            <span>Some of the clients:</span>
+          </div>
+        </div>
+        <div class="right">
+          <ul>
+            <li>
+              <p>Google Data Analytics Professional Certificate.</p>
+              <p>2023</p>
+            </li>
+            <li>
+              <p>Mastering frontend languages</p>
+              <p>2022</p>
+            </li>
+            <li>
+              <p>Webflow Developer</p>
+              <p>2021</p>
+            </li>
+            <li>
+              <p>Visual Communications and Solutions</p>
+              <p>2018</p>
+            </li>
+            <li>
+              <p>Frontend Development Course London App Brewery</p>
+              <p>2017</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="content" id="approach">
+        <div class="left">
+          <div>
+            <span>Approach</span>
+          </div>
+        </div>
+        <div class="right">
+          <ul>
+            <li>
+              <span>Wireframes</span>
+              <p>
+                Wireframes are a crucial tool in the design process, providing a blueprint for the layout and
+                functionality of a digital product. To create effective wireframes, it's important to understand the
+                user's needs and goals, as well as the requirements and constraints of the project.
+              </p>
+            </li>
+            <li>
+              <span>Digital Design</span>
+              <p>
+                To create effective designs, it's important to understand the needs, goals, and behaviors of the target
+                audience. This can be achieved through user research and testing, which can uncover insights about user
+                preferences and pain points. Once this information is gathered, designers can create wireframes and
+                prototypes to iterate and refine the design.
+              </p>
+            </li>
+            <li>
+              <span>Webflow Development</span>
+              <p>
+                Webflow provides extensive design control, allowing users to customize every aspect of their websites.
+                From typography and layouts to animations and interactions, users have the flexibility to create unique
+                and visually appealing designs.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- TODO: Blog -->
+    <section class="articles container">
+      <div class="wrapper">
+        <div class="wrapper_left">
+          <p>Some from the Archives</p>
+        </div>
+        <div class="wrapper_right">
+          <ul>
+            <li>
+              <p>The Ultra Index® ⏤ For storytelling experience</p>
+              <span>2023</span>
+            </li>
+            <li>
+              <p>Awwwards ⏤ Site of the Day (x12)</p>
+              <span>2023</span>
+            </li>
+            <li>
+              <p>Designer of the Year ⏤ Nominee</p>
+              <span>2022</span>
+            </li>
+            <li>
+              <p>2021 Figma Community Award ⏤ Nominee</p>
+              <span>2021</span>
+            </li>
+            <li>
+              <p>CSSAwards ⏤ Featured of the Day (x20+)</p>
+              <span>2020</span>
+            </li>
+            <li>
+              <p>Awwwards ⏤ Developer Award (x6)</p>
+              <span>2019</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- TODO: Footer -->
+    <section class="footer container">
+      <div class="row row-top">
+        <p>Portfolio 2023 - 2024</p>
+        <p>George Bockari</p>
+        <p>34° 1' 19.2108'' N, 84° 21' 41.5764'' W</p>
+      </div>
+      <div class="row-mid">
+        <p>Have a nice project?</p>
+        <p>Get in Touch</p>
+      </div>
+      <div class="row row-bottom">
+        <p>© All rights reserved.</p>
+        <ul>
+          <li>
+            <a id="frame" href="#a" class="m-flip js-flip">
+              <span class="m-flip_item">Twitter</span>
+              <span class="m-flip_item">Twitter</span>
+            </a>
+          </li>
+          <li>
+            <a id="frame" href="#a" class="m-flip js-flip">
+              <span class="m-flip_item">Behance</span>
+              <span class="m-flip_item">Behance</span>
+            </a>
+          </li>
+          <li>
+            <a id="frame" href="#a" class="m-flip js-flip">
+              <span class="m-flip_item">Instagram</span>
+              <span class="m-flip_item">Instagram</span>
+            </a>
+          </li>
+          <li>
+            <a id="frame" href="#a" class="m-flip js-flip">
+              <span class="m-flip_item">Dribble</span>
+              <span class="m-flip_item">Dribble</span>
+            </a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a id="frame" href="#a" class="m-flip js-flip">
+              <span class="m-flip_item">License</span>
+              <span class="m-flip_item">License</span>
+            </a>
+          </li>
+          <li>
+            <a id="frame" href="#a" class="m-flip js-flip">
+              <span class="m-flip_item">Terms of Use</span>
+              <span class="m-flip_item">Terms of Use</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>

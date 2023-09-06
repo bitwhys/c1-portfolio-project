@@ -72,10 +72,47 @@
   font-weight: 900;
 }
 
+// Tokens
+.text {
+  &__display {
+    font-size: 7.5rem;
+    font-weight: 500;
+    line-height: 7.5rem;
+    letter-spacing: -0.375rem;
+  }
+  &__h1 {
+  }
+  &__h2 {
+  }
+  &__h3 {
+    font-size: 3rem;
+    line-height: 4.5rem;
+    letter-spacing: -0.06rem;
+    font-weight: 300;
+  }
+  &__h4 {
+  }
+  &__h5 {
+  }
+  &__lead {
+  }
+  &__body {
+    &-sm {
+      line-height: 1.4375rem;
+      letter-spacing: -0.0375rem;
+    }
+
+    &-md {
+    }
+    &-lg {
+    }
+  }
+}
+
 // Base typography styles
 body {
   font-family: 'Visby CF', sans-serif;
-  font-weight: 400;
+  font-weight: var(--defalut-font-weight);
   /*font-size: 16px;*/
   line-height: 1.7;
   //color: $color-grey-dark;
