@@ -1,4 +1,5 @@
 # Correlation One - Portfolio Project
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7622edfd-cfa3-462b-86ea-29b47a23796b/deploy-status)](https://app.netlify.com/sites/gbockari/deploys)
 
 # Project 1
 ## Instructions
