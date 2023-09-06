@@ -5,9 +5,6 @@ const plugin = require('tailwindcss/plugin')
 export default {
   content: ['./*.html'],
   theme: {
-    container: {
-      center: true,
-    },
     extend: {
       colors: {
         neutral: {

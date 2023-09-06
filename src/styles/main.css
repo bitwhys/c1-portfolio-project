@@ -9,3 +9,9 @@
     @apply antialiased bg-background text-foreground font-medium;
   }
 }
+
+@layer components {
+  .container {
+    @apply max-w-7xl mx-auto;
+  }
+}

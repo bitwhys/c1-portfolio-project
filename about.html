@@ -11,14 +11,15 @@
   </head>
   <body>
     <div class="overlay"></div>
-    <!-- TODO: Nav -->
-    <nav class="px-[2.6vw] md:px-[5.2vw] fixed top-[2.6vw] left-0 w-full z-10">
+    <!-- TODO: Header -->
+
+    <header class="px-[2.6vw] md:px-[5.2vw] fixed top-[2.6vw] left-0 w-full z-10">
       <div class="container flex justify-between items-center">
         <div id="logo">
           <p class="text-base font-medium uppercase">George Bockari</p>
           <p class="text-sm text-neutral-10">Atlanta, Georgia</p>
         </div>
-        <div class="p-1.5 bg-overlay-8 backdrop-blur-sm rounded-full">
+        <nav class="p-1.5 bg-overlay-8 backdrop-blur-sm rounded-full">
           <ul id="frame" class="h-full gap-x-3 flex items-center">
             <li class="rounded-full bg-transparent px-3 py-1.5 text-sm font-semibold text-muted">
               <a>Home</a>
@@ -33,7 +34,7 @@
               <a>Contact</a>
             </li>
           </ul>
-        </div>
+        </nav>
         <div id="nav_socials" class="hidden">
           <p class="text-base text-muted">Social</p>
           <ul id="frame" class="flex gap-[1.3vw]">
@@ -70,176 +71,173 @@
           Message Message
         </button>
       </div>
-    </nav>
+    </header>
     <!-- TODO: Hero -->
-    <section class="w-full container about_header flex items-center pt-[30vw] md:pt-[25vw] lg:pt-[13.5vw]">
-      <h1 class="text-5xl font-light">
-        Hi, I’m George Bockari. I am a developer based in Atlanta, GA focused on creating interactive digital
-        experiences on the web, working with creatives and business alike. I Have been helping clients bring their ideas
-        to life since 2014.
-      </h1>
+    <section class="w-full container about_header pt-[30vw] md:pt-[25vw] lg:pt-[13.5vw]">
+      <div class="container">
+        <h1 class="text-5xl font-light">
+          Hey 👋🏿, I’m George Bockari, a developer based in Atlanta focused on creating interactive digital experiences
+          on the web, & working with creatives and business alike. I Have been helping clients bring their ideas to life
+          since 2014.
+        </h1>
+      </div>
     </section>
     <!-- TODO: two cloumns Block 1 -->
-    <section class="container about_wrapper flex items-baseline gap-[13.5vw] md:flex-col">
-      <div class="content pt-[20vw] md:pt-[15vw] lg:pt-[7.8vw] grid grid-cols-split" id="about">
-        <div class="left col-span-1 space-y-[5.2vw]">
-          <div class="space-y-1.5">
-            <span class="uppercase tracking-wider text-sm text-muted font-mono">Some of the services:</span>
-            <ul class="space-y-1 text-sm">
-              <li>
-                <p>Ecommerce</p>
+    <section class="">
+      <div class="container flex items-baseline gap-[13.5vw] md:flex-col">
+        <div class="content pt-[20vw] md:pt-[15vw] lg:pt-[7.8vw] grid grid-cols-split" id="about">
+          <div class="left col-span-1 space-y-[5.2vw]">
+            <div class="space-y-1.5">
+              <span class="uppercase tracking-wider text-sm text-muted font-mono">Some of the services:</span>
+              <ul class="space-y-1 text-sm">
+                <li>
+                  <p>Ecommerce</p>
+                </li>
+                <li>
+                  <p>Landing Page</p>
+                </li>
+                <li>
+                  <p>Digital Marketing</p>
+                </li>
+                <li>
+                  <p>SEO Optimization</p>
+                </li>
+                <li>
+                  <p>Product Design</p>
+                </li>
+              </ul>
+            </div>
+            <div class="space-y-1.5">
+              <span class="uppercase tracking-wider text-sm text-muted font-mono">Hard Skills</span>
+              <ul class="space-y-1 text-sm">
+                <li>
+                  <p>Figma</p>
+                </li>
+                <li>
+                  <p>Modern Frameworks</p>
+                </li>
+                <li>
+                  <p>Webflow/Framer</p>
+                </li>
+                <li>
+                  <p>Shopify</p>
+                </li>
+                <li>
+                  <p>Copy Writing</p>
+                </li>
+                <li>
+                  <p>Design</p>
+                </li>
+                <li>
+                  <p>SEO</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="space-y-8 col-start-3 col-end-5">
+            <h2 class="text-4xl font-light mb-[2.6vw]">
+              Passion for Solutions: From
+              <span class="border-[1.5px] rounded-full border-background-inverted py-[0.5vw] px-[1vw] inline-block"
+                >Startups</span
+              >
+              to
+              <span class="border-[1.5px] rounded-full border-background-inverted py-[0.5vw] px-[1vw] inline-block"
+                >Corporations</span
+              >, My Journey So Far.
+            </h2>
+            <p class="text-lg">
+              Hello! I'm a Software Developer that loves helping creatives and brands bring ideas to life. I've been
+              actively freelancing and contracting since 2015, working with a diverse range of clients including
+              startups, small businesses, and many creatives and entrepreneurs.
+            </p>
+            <p class="text-lg">
+              My expertise lies in crafting efficient and user-friendly software solutions. I'm proficient in multiple
+              programming languages and frameworks, always coding with the end-user in mind. I enjoy distilling complex
+              ideas into actionable steps and transforming them into effective software solutions. This process often
+              involves conducting thorough requirements analysis, innovating good software, and maintaining powerful
+              software.
+            </p>
+            <p class="text-lg">
+              As a Software Developer, my focus is on creating software that not only meets the needs of the user but
+              also aligns with the business goals of my clients. I believe in the power of technology to solve many
+              problems and make our lives easier, and I strive to bring this belief to life through my work
+            </p>
+            <p class="text-lg">
+              n my spare time, I love exploring new tech trends, attending industry conferences and workshops, and
+              contributing to the developer community. I'm always excited to collaborate on new projects and would love
+              to hear from you. Please feel free to get in touch if you have any questions or if you'd like to work
+              together.
+            </p>
+            <img
+              class="mt-16 w-full object-cover rounded-[3rem]"
+              src="/images/component-8.jpg"
+              alt="Busy creatives desk"
+              srcset=""
+            />
+          </div>
+        </div>
+        <div class="content grid grid-cols-split w-full" id="education">
+          <div class="col-span-1">
+            <div>
+              <span class="font-mono text-base text-muted">Some of the clients:</span>
+            </div>
+          </div>
+          <div class="col-start-3 col-end-5">
+            <ul class="divide-y divide-neutral-8">
+              <li class="flex justify-between items-center py-9 text-xl font-semibold">
+                <p>Internal tools at Amazon Logistics.</p>
+                <p>2022</p>
               </li>
-              <li>
-                <p>Landing Page</p>
+              <li class="flex justify-between items-center py-9 text-xl font-semibold">
+                <p>LMS for Medium size Educator</p>
+                <p>2018</p>
               </li>
-              <li>
-                <p>Digital Marketing</p>
+              <li class="flex justify-between items-center py-9 text-xl font-semibold">
+                <p>MVP for Realtime AI Quiz Game</p>
+                <p>2023</p>
               </li>
-              <li>
-                <p>SEO Optimization</p>
-              </li>
-              <li>
-                <p>Product Design</p>
+              <li class="flex justify-between items-center py-9 text-xl font-semibold">
+                <p>Ebook on building browser extensions</p>
+                <p>2024</p>
               </li>
             </ul>
           </div>
-          <div class="space-y-1.5">
-            <span class="uppercase tracking-wider text-sm text-muted font-mono">Hard Skills</span>
-            <ul class="space-y-1 text-sm">
-              <li>
-                <p>Figma</p>
+        </div>
+        <div class="content grid grid-cols-split" id="approach">
+          <div class="col-span-1">
+            <div>
+              <span class="text-base font-mono text-muted">Approach</span>
+            </div>
+          </div>
+          <div class="col-start-3 col-end-5">
+            <ul class="divide-y divide-neutral-8">
+              <li class="grid grid-cols-2 py-9">
+                <span class="text-xl uppercase tracking-widest">Wireframes</span>
+                <p>
+                  Wireframes are a crucial tool in the design process, providing a blueprint for the layout and
+                  functionality of a digital product. To create effective wireframes, it's important to understand the
+                  user's needs and goals, as well as the requirements and constraints of the project.
+                </p>
               </li>
-              <li>
-                <p>Modern Frameworks</p>
+              <li class="grid grid-cols-2 py-9">
+                <span class="text-xl uppercase tracking-widest">Digital Design</span>
+                <p>
+                  To create effective designs, it's important to understand the needs, goals, and behaviors of the
+                  target audience. This can be achieved through user research and testing, which can uncover insights
+                  about user preferences and pain points. Once this information is gathered, designers can create
+                  wireframes and prototypes to iterate and refine the design.
+                </p>
               </li>
-              <li>
-                <p>Webflow/Framer</p>
-              </li>
-              <li>
-                <p>Shopify</p>
-              </li>
-              <li>
-                <p>Copy Writing</p>
-              </li>
-              <li>
-                <p>Design</p>
-              </li>
-              <li>
-                <p>SEO</p>
+              <li class="grid grid-cols-2 py-9">
+                <span class="text-xl uppercase tracking-widest">Webflow Development</span>
+                <p>
+                  Webflow provides extensive design control, allowing users to customize every aspect of their websites.
+                  From typography and layouts to animations and interactions, users have the flexibility to create
+                  unique and visually appealing designs.
+                </p>
               </li>
             </ul>
           </div>
-        </div>
-        <div class="space-y-8 col-start-3 col-end-5">
-          <h2 class="text-4xl font-light mb-[2.6vw]">
-            Passion for Design: From
-            <span class="border-[1.5px] rounded-full border-background-inverted py-[0.5vw] px-[1vw] inline-block"
-              >Startups</span
-            >
-            to
-            <span class="border-[1.5px] rounded-full border-background-inverted py-[0.5vw] px-[1vw] inline-block"
-              >Corporations</span
-            >, My Journey So Far.
-          </h2>
-          <p class="text-lg">
-            I hold a Bachelor's degree in Graphic Design and have been working in the design industry for over a decade.
-            During this time, I have honed my skills in design principles, user experience, and front-end development.
-            I'm proficient in design tools such as Adobe Creative Suite, Sketch, Adobe Xd and Figma, and have a deep
-            understanding of front-end development languages like HTML, CSS, JavaScript & different types of frameworks.
-          </p>
-          <p class="text-lg">
-            My passion for development & design started when I was young, and I have pursued this passion by working
-            with a variety of clients and projects over the years. I have worked with startups, small businesses, and
-            large corporations, creating user interfaces & front-end development for websites, software applications,
-            and mobile apps.
-          </p>
-          <p class="text-lg">
-            As a Senior Developer & UI Designer, my focus is on creating engaging and intuitive user interfaces that
-            provide an exceptional user experience. I believe that design should be user-centric, and my approach to
-            design reflects this belief. I work closely with my clients to understand their users' needs, conduct user
-            research, and create wireframes and prototypes to ensure that the final design meets both user and business
-            goals and also focus on developing.
-          </p>
-          <p class="text-lg">
-            In my spare time, I enjoy exploring new design trends and technologies, attending design conferences and
-            workshops, and sharing my knowledge with the design community. And also trying to learn more frameworks and
-            libraries of javascripts like react.js, next.js, three.js or GSAP etc. I'm always excited to collaborate on
-            new projects and would love to hear from you. Please feel free to get in touch if you have any questions or
-            if you'd like to work together.
-          </p>
-          <img
-            class="mt-16 w-full object-cover rounded-[3rem]"
-            src="/images/component-8.jpg"
-            alt="Busy creatives desk"
-            srcset=""
-          />
-        </div>
-      </div>
-      <div class="content grid grid-cols-split w-full" id="education">
-        <div class="col-span-1">
-          <div>
-            <span class="font-mono text-base text-muted">Some of the clients:</span>
-          </div>
-        </div>
-        <div class="col-start-3 col-end-5">
-          <ul class="divide-y divide-neutral-8">
-            <li class="flex justify-between items-center py-9 text-xl font-semibold">
-              <p>Google Data Analytics Professional Certificate.</p>
-              <p>2023</p>
-            </li>
-            <li class="flex justify-between items-center py-9 text-xl font-semibold">
-              <p>Mastering frontend languages</p>
-              <p>2022</p>
-            </li>
-            <li class="flex justify-between items-center py-9 text-xl font-semibold">
-              <p>Webflow Developer</p>
-              <p>2021</p>
-            </li>
-            <li class="flex justify-between items-center py-9 text-xl font-semibold">
-              <p>Visual Communications and Solutions</p>
-              <p>2018</p>
-            </li>
-            <li class="flex justify-between items-center py-9 text-xl font-semibold">
-              <p>Frontend Development Course London App Brewery</p>
-              <p>2017</p>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="content grid grid-cols-split" id="approach">
-        <div class="col-span-1">
-          <div>
-            <span class="text-base font-mono text-muted">Approach</span>
-          </div>
-        </div>
-        <div class="col-start-3 col-end-5">
-          <ul class="divide-y divide-neutral-8">
-            <li class="grid grid-cols-2 py-9">
-              <span class="text-xl uppercase tracking-widest">Wireframes</span>
-              <p>
-                Wireframes are a crucial tool in the design process, providing a blueprint for the layout and
-                functionality of a digital product. To create effective wireframes, it's important to understand the
-                user's needs and goals, as well as the requirements and constraints of the project.
-              </p>
-            </li>
-            <li class="grid grid-cols-2 py-9">
-              <span class="text-xl uppercase tracking-widest">Digital Design</span>
-              <p>
-                To create effective designs, it's important to understand the needs, goals, and behaviors of the target
-                audience. This can be achieved through user research and testing, which can uncover insights about user
-                preferences and pain points. Once this information is gathered, designers can create wireframes and
-                prototypes to iterate and refine the design.
-              </p>
-            </li>
-            <li class="grid grid-cols-2 py-9">
-              <span class="text-xl uppercase tracking-widest">Webflow Development</span>
-              <p>
-                Webflow provides extensive design control, allowing users to customize every aspect of their websites.
-                From typography and layouts to animations and interactions, users have the flexibility to create unique
-                and visually appealing designs.
-              </p>
-            </li>
-          </ul>
         </div>
       </div>
     </section>
@@ -253,28 +251,26 @@
           <div class="col-start-3 col-end-5">
             <ul class="divide-y divide-neutral-8">
               <li class="py-9 text-xl flex justify-between items-center font-semibold">
-                <p>The Ultra Index® ⏤ For storytelling experience</p>
-                <span>2023</span>
-              </li>
-              <li class="py-9 text-xl flex justify-between items-center font-semibold">
-                <p>Awwwards ⏤ Site of the Day (x12)</p>
-                <span>2023</span>
-              </li>
-              <li class="py-9 text-xl flex justify-between items-center font-semibold">
-                <p>Designer of the Year ⏤ Nominee</p>
-                <span>2022</span>
-              </li>
-              <li class="py-9 text-xl flex justify-between items-center font-semibold">
-                <p>2021 Figma Community Award ⏤ Nominee</p>
-                <span>2021</span>
-              </li>
-              <li class="py-9 text-xl flex justify-between items-center font-semibold">
-                <p>CSSAwards ⏤ Featured of the Day (x20+)</p>
+                <p>UnLearningQuery: A Postmortem on the learnQuery Project</p>
                 <span>2020</span>
               </li>
               <li class="py-9 text-xl flex justify-between items-center font-semibold">
-                <p>Awwwards ⏤ Developer Award (x6)</p>
-                <span>2019</span>
+                <div>
+                  <p class="max-w-xl">Myelin Sheaths, Deliberate Practice and Other Lessons From 'The Talent Code'</p>
+                </div>
+                <span>2020</span>
+              </li>
+              <li class="py-9 text-xl flex justify-between items-center font-semibold">
+                <p>Working with Directus... But I hate PHP</p>
+                <span>2020</span>
+              </li>
+              <li class="py-9 text-xl flex justify-between items-center font-semibold">
+                <p>The Web as a platform vs. compile target</p>
+                <span>2021</span>
+              </li>
+              <li class="py-9 text-xl flex justify-between items-center font-semibold">
+                <div><p class="max-w-xl">From DHTML to The Shadow DOM: A Survey of JavaScript DOM Manipulation</p></div>
+                <span>2020</span>
               </li>
             </ul>
           </div>
@@ -283,7 +279,7 @@
     </section>
 
     <!-- TODO: Footer -->
-    <section
+    <footer
       id="footer"
       class="bg-background-inverted text-foreground-inverted mt-[-5vw] pb-[4.16vw] pt-[calc(4.16vw_+_5vw)]"
     >
@@ -343,7 +339,7 @@
           </ul>
         </div>
       </div>
-    </section>
+    </footer>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
