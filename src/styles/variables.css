@@ -1,8 +1,10 @@
+@import '@fontsource/ibm-plex-sans/400.css';
 @import 'colors.css';
 
 :root {
   --background: var(--sage-2);
   --foreground: var(--sage-12);
+  --foreground-muted: var(--sage-11);
   --background-inverted: hsl(155, 7%, 9.2%);
   --foreground-inverted: hsl(155, 7%, 93%);
 

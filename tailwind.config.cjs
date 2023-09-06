@@ -1,9 +1,13 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
+const plugin = require('tailwindcss/plugin')
 
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ['./*.html'],
   theme: {
+    container: {
+      center: true,
+    },
     extend: {
       colors: {
         neutral: {
@@ -97,9 +101,8 @@ export default {
           10: 'var(--overlay-10)',
           11: 'var(--overlay-11)',
           12: 'var(--overlay-12)',
-
         },
-      //   semantic colors
+        //   semantic colors
         background: 'var(--background)',
         'background-inverted': 'var(--background-inverted)',
         foreground: 'var(--foreground)',
@@ -107,15 +110,20 @@ export default {
       },
       textColor: {
         foreground: 'var(--foreground)',
-        muted: 'var(--foreground-muted)'
+        muted: 'var(--foreground-muted)',
       },
       fontFamily: {
-        sans: ['Visby CF', ...defaultTheme.fontFamily.sans]
-      }
+        sans: ['Visby CF', ...defaultTheme.fontFamily.sans],
+        mono: ['IBM Plex Sans',...defaultTheme.fontFamily.mono]
+      },
+      gridTemplateColumns: {
+        split: '.5fr .6fr 1.25fr .5fr',
+      },
     },
   },
   plugins: [
     require('@tailwindcss/forms'),
-    require('@tailwindcss/typography')
+    require('@tailwindcss/typography'),
+    plugin(function ({ addBase, addComponents }) {}),
   ],
 }
