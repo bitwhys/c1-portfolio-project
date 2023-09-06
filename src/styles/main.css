@@ -5,6 +5,8 @@
 @tailwind utilities;
 
 @layer base {
+}
+@layer base {
   body {
     @apply antialiased bg-background text-foreground font-medium;
   }

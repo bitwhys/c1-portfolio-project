@@ -116,6 +116,25 @@ export default {
       gridTemplateColumns: {
         split: '.5fr .6fr 1.25fr .5fr',
       },
+      transitionTimingFunction: {
+        shrink: 'cubic-bezier(0.19,1,0.22,1)'
+      },
+      borderRadius: {
+        DEFAULT: 'var(--radius-3)',
+        xs: 'var(--radius-1)',
+        sm: 'var(--radius-2)',
+        lg: 'var(--radius-4)',
+        xl: 'var(--radius-5)',
+        '2xl': 'var(--radius-6)',
+      },
+      boxShadow: {
+        1: 'var(--shadow-1)',
+        2: 'var(--shadow-2)',
+        3: 'var(--shadow-3)',
+        4: 'var(--shadow-4)',
+        5: 'var(--shadow-5)',
+        6: 'var(--shadow-6)',
+      }
     },
   },
   plugins: [

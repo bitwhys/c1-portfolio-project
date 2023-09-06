@@ -99,6 +99,17 @@
   --overlay-10: var(--white-a10);
   --overlay-11: var(--white-a11);
   --overlay-12: var(--white-a12);
+
+  /*  Shadows */
+  --shadow-1: inset 0 1px var(--neutral-a4), inset 0 0 0.5px var(--neutral-a3), inset 0 -1px 0px var(--neutral-a3),
+    inset 0 0 0 1px var(--neutral-a6), inset 0 1px 3px 0 var(--white-a10), inset 0 1px 3px 0 var(--white-a12);
+  --shadow-2: 0 0 0 1px var(--neutral-5), 0 0 0 0.5px var(--white-a4), 0px 2px 1px -1px var(--white-a9),
+    0px 1px 1px 0px var(--white-a9), 0px 1px 3px 0px var(--white-a9);
+  --shadow-3: 0 0 0 1px var(--neutral-5), 0px 2px 3px -2px var(--white-a5), 0px 3px 8px -2px var(--white-a8),
+    0px 4px 12px -4px var(--white-a9);
+  --shadow-4: 0 0 0 1px var(--neutral-5), 0px 8px 40px var(--white-a7), 0px 12px 32px -16px var(--white-a8);
+  --shadow-5: 0 0 0 1px var(--neutral-5), 0px 12px 60px var(--white-a8), 0px 12px 32px -16px var(--white-a10);
+  --shadow-6: 0 0 0 1px var(--neutral-5), 0px 16px 64px var(--white-a11), 0px 16px 36px -20px var(--white-a12);
 }
 
 .dark,
@@ -121,6 +132,13 @@
 
 /* Radius */
 :root {
-  --radius: 1;
+  --radius-full: 999px;
+  --radius-factor: 1;
   --scaling: 1;
+  --radius-1: calc(3px * var(--scaling) * var(--radius-factor));
+  --radius-2: calc(4px * var(--scaling) * var(--radius-factor));
+  --radius-3: calc(6px * var(--scaling) * var(--radius-factor));
+  --radius-4: calc(8px * var(--scaling) * var(--radius-factor));
+  --radius-5: calc(12px * var(--scaling) * var(--radius-factor));
+  --radius-6: calc(16px * var(--scaling) * var(--radius-factor));
 }

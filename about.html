@@ -12,25 +12,30 @@
   <body>
     <div class="overlay"></div>
     <!-- TODO: Header -->
-
     <header class="px-[2.6vw] md:px-[5.2vw] fixed top-[2.6vw] left-0 w-full z-10">
       <div class="container flex justify-between items-center">
-        <div id="logo">
-          <p class="text-base font-medium uppercase">George Bockari</p>
-          <p class="text-sm text-neutral-10">Atlanta, Georgia</p>
-        </div>
-        <nav class="p-1.5 bg-overlay-8 backdrop-blur-sm rounded-full">
+        <a href="/" id="logo" class="flex flex-col">
+          <span class="text-base font-medium uppercase">George Bockari</span>
+          <span class="text-sm text-neutral-10">Atlanta, Georgia</span>
+        </a>
+        <nav class="p-1.5 shadow-3 bg-overlay-8 backdrop-blur-sm rounded-full">
           <ul id="frame" class="h-full gap-x-3 flex items-center">
-            <li class="rounded-full bg-transparent px-3 py-1.5 text-sm font-semibold text-muted">
-              <a>Home</a>
+            <li
+              class="rounded-full bg-transparent px-3 py-1.5 text-sm font-semibold text-muted hover:text-foreground transition duration-300 ease-shrink"
+            >
+              <a href="/">Home</a>
             </li>
-            <li class="rounded-full bg-transparent px-3 py-1.5 text-sm font-semibold text-muted">
-              <a>Case Studies</a>
+            <li
+              class="rounded-full bg-transparent px-3 py-1.5 text-sm font-semibold text-muted hover:text-foreground transition duration-300 ease-shrink"
+            >
+              <a href="/case-studies.html">Case Studies</a>
             </li>
             <li class="bg-background-inverted text-foreground-inverted rounded-full px-3 py-1.5 text-sm font-semibold">
-              <a>About</a>
+              <a href="/about.html">About</a>
             </li>
-            <li class="rounded-full bg-transparent px-3 py-1.5 text-sm font-semibold text-muted">
+            <li
+              class="rounded-full bg-transparent px-3 py-1.5 text-sm font-semibold text-muted hover:text-foreground transition duration-300 ease-shrink"
+            >
               <a>Contact</a>
             </li>
           </ul>
@@ -66,9 +71,9 @@
         </div>
         <button
           type="button"
-          class="rounded-full bg-background-inverted px-4 py-2.5 text-sm font-semibold text-foreground-inverted shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+          class="rounded-full bg-background-inverted px-4 py-2.5 text-sm font-semibold text-foreground-inverted shadow-sm hover:bg-background-inverted hover:text-foreground-inverted focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
         >
-          Message Message
+          Message
         </button>
       </div>
     </header>

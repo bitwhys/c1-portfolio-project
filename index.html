@@ -7,10 +7,337 @@
     <title>George Bockari | Home</title>
   </head>
   <body>
-    <h1>Hello, World!</h1>
-    <ul>
-      <li><a href="/about.html">About Me</a></li>
-    </ul>
+    <!-- TODO: Header -->
+    <header class="px-[2.6vw] md:px-[5.2vw] fixed top-[2.6vw] left-0 w-full z-10">
+      <div class="container flex justify-between items-center">
+        <a href="/" id="logo" class="flex flex-col">
+          <span class="text-base font-medium uppercase">George Bockari</span>
+          <span class="text-sm text-neutral-10">Atlanta, Georgia</span>
+        </a>
+        <nav class="p-1.5 shadow-3 bg-overlay-8 backdrop-blur-sm rounded-full">
+          <ul id="frame" class="h-full gap-x-3 flex items-center">
+            <li class="rounded-full bg-background-inverted px-3 py-1.5 text-sm font-semibold text-foreground-inverted">
+              <a href="/">Home</a>
+            </li>
+            <li
+              class="rounded-full bg-transparent px-3 py-1.5 text-sm font-semibold text-muted hover:text-foreground transition duration-300 ease-shrink"
+            >
+              <a href="/case-studies.html">Case Studies</a>
+            </li>
+            <li class="bg-transparent text-muted rounded-full px-3 py-1.5 text-sm font-semibold">
+              <a href="/about.html">About</a>
+            </li>
+            <li class="rounded-full bg-transparent px-3 py-1.5 text-sm font-semibold text-muted">
+              <a>Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div id="nav_socials" class="hidden">
+          <p class="text-base text-muted">Social</p>
+          <ul id="frame" class="flex gap-[1.3vw]">
+            <li class="hidden lg:block lg:mt-[0.26vw]">
+              <a href="#a" class="m-flip js-flip">
+                <span class="m-flip_item">GH</span>
+                <span class="m-flip_item">GH</span>
+              </a>
+            </li>
+            <li class="hidden lg:block lg:mt-[0.26vw]">
+              <a href="#a" class="m-flip js-flip">
+                <span class="m-flip_item">TW</span>
+                <span class="m-flip_item">TW</span>
+              </a>
+            </li>
+            <li class="hidden lg:block lg:mt-[0.26vw]">
+              <a href="#a" class="m-flip js-flip">
+                <span class="m-flip_item">IG</span>
+                <span class="m-flip_item">IG</span>
+              </a>
+            </li>
+            <li class="hidden lg:block lg:mt-[0.26vw]">
+              <a href="#a" class="m-flip js-flip">
+                <span class="m-flip_item">DRIB</span>
+                <span class="m-flip_item">DRIB</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <button
+          type="button"
+          class="rounded-full bg-background-inverted px-4 py-2.5 text-sm font-semibold text-foreground-inverted shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+        >
+          Message
+        </button>
+      </div>
+    </header>
+    <!-- Hero -->
+    <section>
+      <div class="container flex pb-[5.2vw] pt-[25rem]">
+        <div class="grid grid-cols-split">
+          <div class="col-span-1 flex flex-col justify-between">
+            <p class="text-base">
+              Over 18 awards and mentions from renowned industry players like Awwwards, FWA, and CSSDA. I can't wait to
+              see what the future holds as I continue to innovate and create.
+            </p>
+            <p class="text-sm font-mono tracking-wider">Last updated <span>31 - 05 - 2023</span></p>
+          </div>
+          <div class="col-start-3 col-end-5">
+            <h1 class="font-light text-7xl">Product Designer and Developer currently based in Atlanta</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Projects -->
+    <section class="project pt-[2.6vw]">
+      <div id="project_wrapper" class="container flex flex-wrap justify-between gap-[2.6vw]">
+        <div class="w-full relative case" id="frame">
+          <img
+            class="rounded-[3rem] cursor-pointer w-full h-full object-cover transition-all duration-1000 ease-shrink hover:scale-95"
+            src="/images/project-coverart-1.png"
+            alt=""
+            srcset=""
+          />
+          <div
+            class="flex justify-between case_text w-full absolute left-0 top-0 hidden opacity-0 transition-all ease-shrink duration-1000 -translate-y-12 container"
+          >
+            <p>&Deli</p>
+            <div>
+              <p>Webflow</p>
+              <p>2023</p>
+            </div>
+          </div>
+        </div>
+        <div class="grid gap-[2.6vw] grid-cols-[57%_40%]">
+          <div class="relative case" id="frame">
+            <img
+              class="rounded-[3rem] cursor-pointer w-full h-full object-cover transition-all duration-1000 ease-shrink hover:scale-95"
+              src="/images/project-coverart-2.png"
+              alt=""
+              srcset=""
+            />
+            <div
+              class="flex justify-between case_text w-full absolute left-0 top-0 hidden opacity-0 transition-all ease-shrink duration-1000 -translate-y-12 container"
+            >
+              <p>HAFH</p>
+              <div>
+                <p>UI / UX</p>
+                <p>2021</p>
+              </div>
+            </div>
+          </div>
+          <div class="relative case" id="frame">
+            <img
+              class="rounded-[3rem] cursor-pointer w-full h-full object-cover transition-all duration-1000 ease-shrink hover:scale-95"
+              src="/images/project-coverart-3.png"
+              alt=""
+              srcset=""
+            />
+            <div
+              class="flex justify-between case_text w-full absolute left-0 top-0 hidden opacity-0 transition-all ease-shrink duration-1000 -translate-y-12 container"
+            >
+              <p>Tag HEUER</p>
+              <div>
+                <p>App</p>
+                <p>2021</p>
+              </div>
+            </div>
+          </div>
+          <div class="relative case" id="frame">
+            <img
+              class="rounded-[3rem] cursor-pointer w-full h-full object-cover transition-all duration-1000 ease-shrink hover:scale-95"
+              src="/images/project-coverart-4.png"
+              alt=""
+              srcset=""
+            />
+            <div
+              class="flex justify-between case_text w-full absolute left-0 top-0 hidden opacity-0 transition-all ease-shrink duration-1000 -translate-y-12 container"
+            >
+              <p>VolkSwagen</p>
+              <div>
+                <p>UI / UX</p>
+                <p>2020</p>
+              </div>
+            </div>
+          </div>
+          <div class="group relative case" id="frame">
+            <img
+              class="rounded-[3rem] cursor-pointer w-full h-full object-cover transition-all duration-1000 ease-shrink hover:scale-95"
+              src="/images/project-coverart-5.png"
+              alt=""
+              srcset=""
+            />
+            <div
+              id="case-text"
+              class="justify-between w-full absolute left-0 top-0 hidden opacity-0 transition-all ease-shrink duration-1000 -translate-y-12 container"
+            >
+              <p
+                class="text-sm bg-background-inverted text-foreground-inverted py-[0.5vw] px-[1vw] sm:py-[1vw] sm:px-[2vw] rounded-[3rem] opacity-50 w-fit"
+              >
+                Angel Chen's
+              </p>
+              <div class="flex gap-[0.5vw] sm:flex-col sm:gap-[1vw]">
+                <p>Webflow</p>
+                <p>2020</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mt-[5.2vw]">
+          <button
+            type="button"
+            class="rounded-full bg-background-inverted px-4 py-2.5 text-sm font-semibold text-foreground-inverted shadow-sm hover:bg-background-inverted hover:text-foreground-inverted focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+          >
+            All Works
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- About -->
+    <section id="about" class="pt-[20vh] md:pt-[15vw] lg:pt-[7.8vw]">
+      <div class="container grid grid-cols-split">
+        <div class="col-span-1 space-y-1.5">
+          <span class="text-sm font-mono uppercase text-muted">Some of the clients:</span>
+          <ul class="space-y-1">
+            <li>
+              <p>Rag & Bone</p>
+            </li>
+            <li>
+              <p>Aimfox</p>
+            </li>
+            <li>
+              <p>Disney</p>
+            </li>
+            <li>
+              <p>Knight Frank</p>
+            </li>
+            <li>
+              <p>Volkswagen</p>
+            </li>
+          </ul>
+        </div>
+        <div class="col-start-3 col-end-5">
+          <h1 class="text-3xl">
+            Studied Web Development at
+            <span class="border-[1.5px] rounded-full border-background-inverted py-[0.5vw] px-[1vw] inline-block"
+              >Sacramento State</span
+            >
+            And have been working in the development industry for over a decade.
+          </h1>
+          <div class="mt-[1.56vw] flex justify-between items-end gap-x-8">
+            <p class="text-lg leading-relaxed w-full md:w-3/5 lg:w-3/4">
+              My passion for development & design started when I was young, and I have pursued this passion by working
+              with a variety of clients and projects over the years. I have worked with startups, small businesses, and
+              large corporations, creating user interfaces for websites, software applications, and mobile apps.
+            </p>
+            <button
+              class="rounded-full bg-background px-4 py-2.5 text-sm font-semibold shadow-sm ring-1 ring-inset ring-neutral-7 whitespace-nowrap hover:bg-neutral-4"
+            >
+              Read more
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="overflow-hidden pt-[20vw] md:pt-[15vw] lg:pt-[7.8vw]">
+        <img src="/images/home-about-image.jpg" alt="" srcset="" class="w-full object-cover h-full" />
+      </div>
+    </section>
+    <!-- TODO: Blog -->
+    <section id="awwards" class="relative bg-background rounded-b-[3rem] py-[7.8vw]">
+      <div class="container">
+        <div class="grid grid-cols-split">
+          <div class="col-span-1">
+            <h3 class="text-base font-mono text-muted">Some from the Archives</h3>
+          </div>
+          <div class="col-start-3 col-end-5">
+            <ul class="divide-y divide-neutral-8">
+              <li class="py-9 text-xl flex justify-between items-center font-semibold">
+                <p>UnLearningQuery: A Postmortem on the learnQuery Project</p>
+                <span>2020</span>
+              </li>
+              <li class="py-9 text-xl flex justify-between items-center font-semibold">
+                <div>
+                  <p class="max-w-xl">Myelin Sheaths, Deliberate Practice and Other Lessons From 'The Talent Code'</p>
+                </div>
+                <span>2020</span>
+              </li>
+              <li class="py-9 text-xl flex justify-between items-center font-semibold">
+                <p>Working with Directus... But I hate PHP</p>
+                <span>2020</span>
+              </li>
+              <li class="py-9 text-xl flex justify-between items-center font-semibold">
+                <p>The Web as a platform vs. compile target</p>
+                <span>2021</span>
+              </li>
+              <li class="py-9 text-xl flex justify-between items-center font-semibold">
+                <div><p class="max-w-xl">From DHTML to The Shadow DOM: A Survey of JavaScript DOM Manipulation</p></div>
+                <span>2020</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- TODO: Footer -->
+    <footer
+      id="footer"
+      class="bg-background-inverted text-foreground-inverted mt-[-5vw] pb-[4.16vw] pt-[calc(4.16vw_+_5vw)]"
+    >
+      <div class="container">
+        <div class="font-mono w-full flex justify-between flex-col-reverse md:flex-row items-center row row-top">
+          <p class="text-lg">Portfolio 2023 - 2024</p>
+          <p class="text-xl">George Bockari</p>
+          <p class="text-lg">34° 1' 19.2108'' N, 84° 21' 41.5764'' W</p>
+        </div>
+        <div
+          class="w-full flex justify-between flex-col-reverse md:flex-row items-center row-mid py-[13vw] px-0 text-center"
+        >
+          <p class="text-muted">Have a nice project?</p>
+          <p class="text-muted">Get in Touch</p>
+        </div>
+        <div class="w-full flex justify-between flex-col-reverse md:flex-row items-center row row-bottom">
+          <p class="text-sm text-neutral-10">George Bockari 2023© All rights reserved.</p>
+          <ul class="flex gap-[5.2vw] sm:gap-[2vw]">
+            <li>
+              <a id="frame" href="#a" class="m-flip js-flip">
+                <span class="m-flip_item">Twitter</span>
+                <span class="m-flip_item">Twitter</span>
+              </a>
+            </li>
+            <li>
+              <a id="frame" href="#a" class="m-flip js-flip">
+                <span class="m-flip_item">Behance</span>
+                <span class="m-flip_item">Behance</span>
+              </a>
+            </li>
+            <li>
+              <a id="frame" href="#a" class="m-flip js-flip">
+                <span class="m-flip_item">Instagram</span>
+                <span class="m-flip_item">Instagram</span>
+              </a>
+            </li>
+            <li>
+              <a id="frame" href="#a" class="m-flip js-flip">
+                <span class="m-flip_item">Dribble</span>
+                <span class="m-flip_item">Dribble</span>
+              </a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a id="frame" href="#a" class="m-flip js-flip">
+                <span class="m-flip_item">License</span>
+                <span class="m-flip_item">License</span>
+              </a>
+            </li>
+            <li>
+              <a id="frame" href="#a" class="m-flip js-flip">
+                <span class="m-flip_item">Terms of Use</span>
+                <span class="m-flip_item">Terms of Use</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
